@@ -1,0 +1,47 @@
+#side-panel-container
+{
+    display:flex;
+    flex-direction: column;
+    width: 100px;
+}
+#logo-side-panel
+{
+    height: 45px;
+    width:  45px;
+}
+.spacing-sidebar
+{
+    
+    padding-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family:  Helvetica;
+     
+}
+.img-beside
+{
+    
+    height: 17px;
+}
+/* .spacing-sidebar:hover
+{
+    border-radius: 3px;
+   background-color: rgb(215, 208, 208); 
+} */
+
+/* Add_ads */
+#rhs-container
+{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+#element
+{
+    margin-top: 25px;
+}
