@@ -22,4 +22,4 @@ Do contact me first before pushing your code on github.
 > Then open web browser and in search type `"localhost:3000"`.
 > The website will be visible to you.
 
-![image](https://user-images.githubusercontent.com/68288000/212131960-1c7aeefa-0e2c-433a-92ef-1aa6d870ce85.png)
+![image](https://user-images.githubusercontent.com/68288000/213159778-eaf05306-a354-4f65-acd1-d69a7f9bcfcf.png)
