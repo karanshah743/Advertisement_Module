@@ -1,6 +1,164 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title} for NewzBy.
-  p Let's start to build this together.
+  //- h1= title
+  //- p Welcome to #{title} for NewzBy.
+  //- p Let's start to build this together.
+  //- p Trying to implement bootstrap.
+
+
+  .container
+      .row
+        .col-2
+          | col-4
+        
+        // Dashboard Container
+        .col-10
+          
+          // Navbar
+          nav.navbar.navbar-light.bg-light
+            .container-fluid
+              a.navbar-brand Dashboard
+              a.navbar-brand.admin-name(href='#')
+                img#admin-profile-image.d-inline-block.align-text-top(src='/images/user.png', alt='', width='30', height='30')
+                b Admin
+
+          // Dashboard Items
+          #dashboard-row.row.row-cols-1.row-cols-md-3.g-4
+            
+            //Dashboard Card 1 (Running Adds)
+            #dashboard-col.col
+              #dashboard-card.card.h-100
+                .card-body
+                  h5.card-title
+                    img#list-icon(src='/images/arrow-right.png', alt='arrow', width='30', height='30')
+                    b Running Adds
+                  .table-responsive
+                    table.table.table-hover
+                      thead
+                        tr
+                          th#cell-style-left(scope='col', style='border-top-left-radius: 15px;') Name
+                          th#cell-style-right(scope='col', style='border-top-right-radius: 15px;') Days Left
+                      tbody
+                        tr
+                          td#cell-style-left Mark
+                          td#cell-style-right 15
+                        tr
+                          td#cell-style-left Jacob
+                          td#cell-style-right 24
+                        tr
+                          td#cell-style-left Larry the Bird
+                          td#cell-style-right 76
+                        tr
+                          td#cell-style-left Mark
+                          td#cell-style-right 15
+                        tr
+                          td#cell-style-left Jacob
+                          td#cell-style-right 24
+                        tr
+                          td#cell-style-left Larry the Bird
+                          td#cell-style-right 76
+                        tr
+                          td#cell-style-left Larry the Bird
+                          td#cell-style-right 76
+                        tr
+                          td#cell-style-left Mark
+                          td#cell-style-right 15
+                        tr
+                          td#cell-style-left Jacob
+                          td#cell-style-right 24
+                        tr
+                          td#cell-style-left Larry the Bird
+                          td#cell-style-right 76
+            
+            //Dashboard Card 2 (New Request)
+            #dashboard-col.col
+              #dashboard-card.card.h-100
+                .card-body
+                  h5.card-title
+                    img#list-icon(src='/images/arrow-right.png', alt='arrow', width='30', height='30')
+                    b New Request
+                  .table-responsive
+                    table.table.table-hover
+                      thead
+                        tr
+                          th#cell-style-left(scope='col', style='border-top-left-radius: 15px;') Name
+                          th#cell-style-right(scope='col', style='border-top-right-radius: 15px;') Time
+                      tbody
+                        tr
+                          td#cell-style-left Mark
+                          td#cell-style-right 12:12:15
+                        tr
+                          td#cell-style-left Jacob
+                          td#cell-style-right 12:12:15
+                        tr
+                          td#cell-style-left Larry the Bird
+                          td#cell-style-right 12:12:15
+                        tr
+                          td#cell-style-left Mark
+                          td#cell-style-right 12:12:15
+                        tr
+                          td#cell-style-left Jacob
+                          td#cell-style-right 12:12:15
+                        tr
+                          td#cell-style-left Larry the Bird
+                          td#cell-style-right 12:12:15
+            
+            //Dashboard Card 3 (To add something new)
+            #dashboard-col.col
+              #dashboard-card.card.h-100
+                .card-body
+                  h5.card-title
+                    img#list-icon(src='/images/arrow-right.png', alt='arrow', width='30', height='30')
+                    b Add something
+                  p Yet to be displayed...
+      
+      //Row 2
+      .row.header-row
+        .col-12
+          | Cities
+      
+      //Analysis row
+      #analysis-row.row(style='border: 1px solid black; justify-content: center;')
+        
+        //Analysis card 1 (Piechart 1)
+        .col-md
+          #card.card.h-100
+            .card-body
+              table.table.analysis-table
+                tbody
+                  tr
+                    td
+                      .piechart1
+                    td.pie-values
+                      ul.pie-values-list
+                        li.pie-values-list-item1 City only
+                        li.pie-values-list-item2 Glode
+                        li.pie-values-list-item3 Area
+        
+        //Analysis card 2 (Bar Chart)
+        .col-md
+          #card.card.h-100
+            .card-body
+              canvas#barChart hello
+        
+        //Analysis card 3 (Piechart 2)
+        .col-md
+          #card.card.h-100
+            .card-body
+              table.table.analysis-table
+                tbody
+                  tr
+                    td
+                      .piechart1
+                    td.pie-values
+                      ul.pie-values-list
+                        li.pie-values-list-item4
+                          | Banner
+                          | Adds
+                        li.pie-values-list-item5
+                          | Regular
+                          | Adds
+                        li.pie-values-list-item6 Full Adds
+
+  
