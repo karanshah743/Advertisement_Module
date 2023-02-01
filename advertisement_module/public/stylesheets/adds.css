@@ -1,0 +1,105 @@
+.first-col,
+.second-col,
+.third-col {
+    border: 1px solid;
+}
+
+.regularAdd {
+    padding: 0 !important;
+}
+
+.card {
+    border: 0 !important;
+}
+
+.navbar-brand {
+    margin: 0 !important;
+}
+
+#admin-profile-image {
+    margin-right: 5%;
+}
+
+.selection1 {
+    text-align: start;
+    display: flex;
+}
+
+.selection2 {
+    margin-top: 2%;
+}
+
+.d-flex {
+    margin-top: 0;
+    margin-left: 25%;
+}
+
+.searchBtn {
+    margin-left: 0 !important;
+    border: 0 !important;
+}
+
+.form-select {
+    display: inline !important;
+    width: 25% !important;
+    margin-left: 2%;
+}
+
+.btn {
+    margin-left: 5%;
+}
+
+form {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#seperator {
+    font-size: larger;
+    margin: 0 2%;
+}
+
+
+
+
+
+tbody, thead {
+    text-align: center;
+}
+
+thead tr {
+    background-color: #369fdb;
+    z-index: 1;
+}
+
+#cell-style-left {
+    border-right: 1px solid gainsboro !important;
+    border-bottom: 0;
+}
+
+#cell-style-right,
+#cell-style {
+    border-bottom: 0;
+}
+
+.table {
+    border-radius: 15px;
+    margin-bottom: 0 !important;
+}
+
+.table tr {
+    position: sticky;
+    top: 0px;
+}
+
+.table-responsive {
+    max-height: 180px;
+    margin-top: 8%;
+    box-shadow: 2px 2px 12px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

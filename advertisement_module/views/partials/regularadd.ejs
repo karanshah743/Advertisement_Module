@@ -1,0 +1,56 @@
+<div class="card">
+    <div class="card-body">
+      <div class="dropdown">
+        <b>Add Advertisements</b>
+        <!-- <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Select type
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Regular</a></li>
+          <li><a class="dropdown-item" href="#">Full</a></li>
+          <li><a class="dropdown-item" href="#">Banner</a></li>
+        </ul> -->
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Regular Add</option>
+          <option value="1">Banner Add</option>
+          <option value="2">Full Add</option>
+        </select>
+      </div>
+      <form>
+        <div class="input-group mb-3">
+          <label for="inputAddFile" class="col-sm-2 col-form-label">Image / URL</label>
+          <input type="file" class="form-control" id="inputAddFile">
+          <label for="separation" id="seperator">/</label>
+          <input type="text" class="form-control" id="inputAddFile" placeholder="https://example.com/users/" aria-describedby="basic-addon3">
+        </div>
+        <div class="row mb-3">
+          <label for="inputTitle" class="col-sm-2 col-form-label">Title</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputTitle">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputDescription" class="col-sm-2 col-form-label">Description</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" id="inputDescription" aria-label="With textarea"></textarea>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputCompany" class="col-sm-2 col-form-label">Company</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputCompany">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputProductURL" class="col-sm-2 col-form-label">Product URL</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputProductURL" placeholder="https://example.com/users/" aria-describedby="basic-addon3">
+          </div>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary" type="button">Publish Add</button>
+        </div>
+        <!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
+      </form>
+    </div>
+  </div>
